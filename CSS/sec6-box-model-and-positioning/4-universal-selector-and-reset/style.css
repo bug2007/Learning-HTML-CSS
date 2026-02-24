@@ -1,0 +1,22 @@
+/* universal selector. will apply to all elements */
+* {
+  border: red solid 5px;
+  margin: 0;
+  padding: 0;
+  /* means when u add margin and padding, they r not included to height and weight; they add to height and width */
+  /* box-sizing: content-box; */
+  /* maring and padding are included in width and height*/
+  /* box-sizing: border-box */
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.box {
+  background: coral;
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+}
