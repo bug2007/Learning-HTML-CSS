@@ -35,3 +35,4 @@ Project Root
 
 - HTML Form Challenge - [Live Demo](https://html-formmm.netlify.app/)
 - Pricing Grid Challenge - [Live Demo](https://pricingridd.netlify.app/)
+- CSS Basics Challenge - [Live Demo](https://css-basics-challenge.netlify.app/)
