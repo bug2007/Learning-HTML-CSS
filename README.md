@@ -33,5 +33,5 @@ Project Root
 
 ## 🚀 Mini Projects
 
-- Pricing Grid Challenge - [Live Demo]([https://yourwebsite.com](https://html-formmm.netlify.app/))
-- HTML Form Challenge - [Live Demo]([https://yourwebsite.com](https://pricingridd.netlify.app/))
+- Pricing Grid Challenge - [Live Demo](https://html-formmm.netlify.app/)
+- HTML Form Challenge - [Live Demo](https://pricingridd.netlify.app/)
