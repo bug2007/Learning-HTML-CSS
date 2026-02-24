@@ -1,0 +1,31 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: rgb(255, 255, 255);
+}
+
+/* Color names */
+.sporty {
+    color: red;
+}
+
+/* Hex colors */
+.casual {
+    color: #e04553;
+}
+
+/* alpha values only make the color transparent but opacity makes both the color and the text transparent */
+
+/* RGBA */
+.card {
+    background-color: rgba(0,0,0,0.5);
+    background-color: hsl(0, 100%, 50%);
+    background-color: hsla(0, 100%, 50%, 0.5);
+}
+
+.card-2 {
+    background-color: #000;
+    color: #fff
+
+    /* opacity */
+    /* opacity: 1; */
+}
