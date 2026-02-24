@@ -1,0 +1,23 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Hover */
+a:hover {
+    color: red;
+}
+
+/* active */
+a:active {
+    background: blue;
+}
+
+/* Focus */
+a:focus {
+    background: yellow;
+}
+
+/* Visited */
+a:visited {
+    color: coral;
+}
