@@ -1,0 +1,11 @@
+#heading {
+    color: red;
+}
+
+.heading {
+    color:purple;
+}
+
+h1 {
+    color: blue !important;  /* without important, lowest specificty. with important, highest specifity. id has higher specificty than class*/
+}
