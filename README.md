@@ -20,14 +20,14 @@ This repository contains my practice code and projects while learning HTML and C
 
 Project Root
 ├── CSS
-│   ├── sec5-css-basics
-│   ├── sec6
-│   ├── sec7
-│   ├── sec8
+│ ├── sec5-css-basics
+│ ├── sec6
+│ ├── sec7
+│ ├── sec8
 ├── HTML
-│   ├── sec2-essential-html
-│   ├── sec3-forms-and-inputs
-│   └── sec4-more-html-elements
+│ ├── sec2-essential-html
+│ ├── sec3-forms-and-inputs
+│ └── sec4-more-html-elements
 
 ---
 
@@ -36,3 +36,5 @@ Project Root
 - HTML Form Challenge - [Live Demo](https://html-formmm.netlify.app/)
 - Pricing Grid Challenge - [Live Demo](https://pricingridd.netlify.app/)
 - CSS Basics Challenge - [Live Demo](https://css-basics-challenge.netlify.app/)
+- Freelance Form - [Live Demo](https://freelance-formm.netlify.app/)
+- Shoe Cards - [Live Demo](https://shoe-cardss.netlify.app/)
