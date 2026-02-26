@@ -38,3 +38,4 @@ Project Root
 - CSS Basics Challenge - [Live Demo](https://css-basics-challenge.netlify.app/)
 - Freelance Form - [Live Demo](https://freelance-formm.netlify.app/)
 - Shoe Cards - [Live Demo](https://shoe-cardss.netlify.app/)
+- Flexbox Layout Challenge - [Live Demo](https://flexbox-layoutt.netlify.app/)
