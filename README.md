@@ -39,3 +39,4 @@ Project Root
 - Freelance Form - [Live Demo](https://freelance-formm.netlify.app/)
 - Shoe Cards - [Live Demo](https://shoe-cardss.netlify.app/)
 - Flexbox Layout Challenge - [Live Demo](https://flexbox-layoutt.netlify.app/)
+- Pricing Card CSS - [Live Demo](https://pricing-card-css.netlify.app/)
