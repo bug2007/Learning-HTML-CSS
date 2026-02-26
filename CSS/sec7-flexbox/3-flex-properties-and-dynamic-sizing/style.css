@@ -1,0 +1,35 @@
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.flex-container {
+  background-color: lightblue;
+  width: 100%;
+  display: flex;
+  /* flex-grow, flex-shrink, flex-basis OR flex:1*/
+  flex: 1 0 200px;
+}
+
+.flex-item {
+  background-color: coral;
+  border: 1px solid black;
+  padding: 20px;
+  /* width: 200px; */
+}
+
+.item-1 {
+  /* how much a flex-item gonna shrink relative to other flex-items inside the flex-container. default value is 1 */
+  flex-shrink: 0; /*not gonna shrink. if 2, it's gonna shrink twice as fast as others  */
+}
+
+.item-2 {
+  /* how much a flex-item gonna shrink relative to others. default value is 0 */
+  flex-grow: 1;
+}
+
+.item-3 {
+  /* initial size of the flex-item before any space is distributed */
+  flex-basis: 200px;
+}
+
