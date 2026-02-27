@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+p {
+  padding: 2rem;
+}
+
+main {
+  container-type: inline-size;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  height: 100vh; /*main container takes up 100% height of the viewport*/
+}
+
+.card {
+  background-color: white;
+  padding: 2rem;
+  margin: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  /* Container Units */
+  width: 50cqw; /*cards take up 50% width of the container*/
+}
+
+.card h2 {
+  margin-bottom: 0.5rem;
+}
+
+.card-2 {
+  width: 70cqw; /*card 2 has 70% width of the container*/
+  height: 50cqh; /*takes up 50% height of the container*/
+}
+
+@container (max-width: 600px) {
+  .card {
+    width: 95cqw;
+  }
+}
