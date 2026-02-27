@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  display: flex;
+}
+
+p {
+  padding: 2rem;
+}
+
+main {
+  container-type: inline-size; /* 'inline-size' pertains to just the width and 'size' pertains to both width and height*/
+  container-name: main;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+main p {
+  background-color: lightgreen;
+}
+
+aside {
+  container-type: inline-size;
+  container-name: aside;
+  flex: 0 0 30%;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* media query pertains to viewport (changes occur if viewport size changes) whereas container query pertains to the container (changes occur if container size changes)*/
+@container main (max-width: 992px) {
+  main p {
+    background-color: lightblue;
+  }
+}
+
+@container aside (max-width: 300px) {
+  aside p {
+    background-color: lightgreen;
+  }
+}
