@@ -40,3 +40,4 @@ Project Root
 - Shoe Cards - [Live Demo](https://shoe-cardss.netlify.app/)
 - Responsive Flexbox Layout Challenge - [Live Demo](https://flexbox-layoutt.netlify.app/)
 - Responsive Pricing Card CSS - [Live Demo](https://pricing-card-css.netlify.app/)
+- Bono Landing Page - [Live Demo](https://bono-landing-pagee.netlify.app/)
