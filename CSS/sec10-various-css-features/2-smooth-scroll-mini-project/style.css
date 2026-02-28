@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --header-transparency: 0.8;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+p {
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.header {
+  background: linear-gradient(45deg, #f00, #00f);
+  padding: 10px 0;
+  margin-bottom: 80px;
+  /* sticky nav bar */
+  position: sticky;
+  top: 0; /*want it to stick to the top*/
+  z-index: 1000; /*want it to be on top of other stuff when they cross*/
+}
+
+/* creating a class for the purpose of making the sticky nav bar transparent using javascript */
+.header.transparent {
+  background: linear-gradient(45deg, rgba(255, 0, 0, var(--header-transparency)), rgba(0,0,255, var(--header-transparency)));
+}
+
+.header .menu a {
+  color: white;
+}
+
+.header .menu a:hover {
+  color: red;
+}
+
+.header .menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;  /*wont work since there is no height to the header*/
+  gap: 3rem;
+}
+
+.section {
+  margin: 30px 0;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  background: linear-gradient(45deg, red, blue);
+  color: white;
+  font-size: 40px;
+}
+
+.section#home {
+  margin-bottom: 100px;
+} 
+
+/* When u click on Project 4, it will scroll smoothly to that section of the page */
+html {
+  scroll-behavior: smooth;
+}
+
