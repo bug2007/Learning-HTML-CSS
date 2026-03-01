@@ -42,3 +42,4 @@ Project Root
 - Responsive Pricing Card CSS - [Live Demo](https://pricing-card-css.netlify.app/)
 - Bono Landing Page - [Live Demo](https://bono-landing-pagee.netlify.app/)
 - Smooth Scroll - [Live Demo](https://smooth-scrolll.netlify.app/)
+- Lumina Creative - [Live Demo](https://lumina-creative2.netlify.app/)
