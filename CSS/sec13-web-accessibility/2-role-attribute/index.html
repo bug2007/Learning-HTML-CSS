@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HTML & CSS Sandbox</title>
+  </head>
+  <body>
+
+    <!-- Banner -->
+
+    <header role="banner">
+      <h1>My Website</h1>
+      <p>Welcome to my website</p>
+    </header>
+
+    <main>
+      <h2>My Website</h2>
+    </main>
+
+    <!-- Button -->
+
+    <a href="/" role="button">Click me</a>
+
+    <img src="https://picsum.photos/200/300" alt="Random image" role="button" aria-label="Button to open modal" tabindex="0">
+
+    <!-- Listbox and Option -->
+
+    <h2>Available Fruit</h2>
+    <ul role="listbox" aria-label="Available Fruit">
+      <li role="option">Apple</li>
+      <li role="option">Grapes</li>
+      <li role="option">Oranges</li>
+      <li role="option">Cherry</li>
+    </ul>
+
+    <!-- Region -->
+
+    <div role="region" aria-label="FAQ section">
+      <h2>FAQ</h2>
+      <p>This is the FAQ section</p>
+    </div>
+
+    <!-- Live Region roles -->
+
+    <div role="alert">
+      <p>Post Saved</p>
+    </div>
+
+    <script>
+      document.querySelector('img').addEventListener('click', function () {
+        alert('Image clicked');
+      })
+    </script>
+  </body>
+</html>
