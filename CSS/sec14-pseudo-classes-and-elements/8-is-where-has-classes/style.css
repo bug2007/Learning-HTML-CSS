@@ -1,0 +1,47 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+/* .container h1, .container h2, .container p {
+  color: red;
+} */
+
+/* same as above */
+
+.container :is(h1, h2, p) {
+  color: blue;
+}
+
+a:is(:hover, :focus) {
+  background-color: pink;
+}
+
+/* where() is the same thing as is() except with lower specificty */
+/* wont work since has lower specificity than is() and the code above is()*/
+.container :where(h1, h2, p) {
+  color: gray;
+}
+
+/* make the change to every container that has h1 with a span */
+/* wont work since has() has lower specificity */
+.container :has(h1 span) {
+  color: red;
+}
+
+/* will make the change to h1 after checking if there's an h2 right after h1 (immediate sibling combinator) */
+h1:has(+ h2) {
+  color: red;
+}
