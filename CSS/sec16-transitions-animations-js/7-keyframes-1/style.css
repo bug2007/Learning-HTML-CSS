@@ -1,0 +1,37 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+
+.container {
+  max-width: 1100px;
+  margin: 30px auto;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: coral;
+  animation: animate1 2s; /*apply the animation. will go back to orginal state by default after the animation*/
+  animation-fill-mode: forwards; /*the end result will remain*/
+  /* animation-delay: 2s; */
+  /* animation-iteration-count: 3; can also infinite */
+  /* animation-direction: reverse; animation will occur in reverse */
+  /* animation-timing-function: ease/ease-in/ease-out/linear; */
+  position: absolute;
+}
+
+/* will animate the width */
+@keyframes animate1 {
+  from{
+    width: 100px;
+    background-color: coral;
+    top: 0;
+  }
+
+  to {
+    width: 500px;
+    background-color: lightblue;
+    top: 100vh;
+  }
+}
