@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+  transition: background-color 0.8s ease-in-out 1s, color 1s;  /*0.8s is the time it takes to transition and 1s is the delay i.e doesnt do anything for the first and last 1s. ease is default.*/
+  /* transition: all 0.8s ease-in-out. will be applied on all properties */
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  color: yellow;
+}
