@@ -43,3 +43,8 @@ Project Root
 - Bono Landing Page - [Live Demo](https://bono-landing-pagee.netlify.app/)
 - Smooth Scroll - [Live Demo](https://smooth-scrolll.netlify.app/)
 - Lumina Creative - [Live Demo](https://lumina-creative2.netlify.app/)
+
+## 🚀 Projects
+
+- Tutor Website - [Live Demo](https://learning-html-css-three.vercel.app/)
+- Leno Website BEM - [Live Demo](https://learning-html-css-xi.vercel.app/)
